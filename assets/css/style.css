@@ -4,3 +4,18 @@
     border-color: #32383e;
 }
 
+.jumbotron {
+    margin-bottom: 0;
+}
+
+
+
+@media only screen and (orientation: landscape) {
+    .jumbotron h1 {
+        font-size: 120px;
+    }
+
+    .jumbotron p {
+        font-size: 32px;
+    }
+}
